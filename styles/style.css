@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background: #EEF5FF;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    background: #7FB5FF !important;
+}
+
+/* Top Styles */
+
+#top {
+    background: #000000;
+    padding: 10px 0;
+}
+
+#top .btn-top {
+    background-color: #7FB5FF;
+    color: #0C356A;
+    font-weight: 700;
+}
+
+#top .offer {
+    color: #ffffff;
+}
+
+#top .offer .btn {
+    text-transform: uppercase;
+}
+
+@media(max-width: 991px) {
+    #top .offer {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 991px) {
+    #top {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+#top a {
+    color: #ffffff;
+}
+
+#top ul.menu {
+    padding-top: 5px;
+    margin: 0px;
+    text-align: right;
+    font-size: 12px;
+    list-style: none;
+}
+
+@media(max-width: 991px) {
+    #top ul.menu {
+        text-align: center;
+    }
+}
+
+#top ul.menu>li {
+    display: inline-block;
+}
+
+#top ul.menu>li a {
+    color: #eeeeee;
+}
+
+#top ul.menu>li+li:before {
+    content: "|\00a0";
+    color: #f7f7f7;
+    padding: 0 5px;
+}
+
+/* Header Styles */
+
+.navbar {
+    background: #ffffff;
+}
+
+.navbar-collapse .right {
+    float: right;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 70px;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    text-decoration: none;
+}
+
+.navbar ul.nav>li>a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navbar ul.nav>li>a:hover {
+    background: #e7e7e7;
+}
+
+.padding-nav {
+    padding-top: 10px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background: rgb(79, 191, 168);
+    border-color: rgb(65, 179, 156);
+}
+
+#search .navbar-form {
+    float: right;
+}
+
+#search {
+    clear: both;
+    border-top: solid 1px #9adacd;
+    text-align: right;
+}
+
+#search .navbar-form .input-group {
+    display: table;
+}
+
+#search .navbar-form .input-group .form-control {
+    width: 100%;
+}
+
+#slider {
+    margin-bottom: 40px;
+}
+
+/* advantages Styles */
+
+#advantages {
+    text-align: center;
+}
+
+.box {
+    background: #ffffff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
+
+#advantages .box_1 {
+    background-color: #00bfa5;
+}
+
+#advantages .box_2 {
+    background-color: #6499E9;
+}
+
+#advantages .box_3 {
+    background-color: #EBC7E6;
+
+}
+
+#advantages .box h3 {
+    position: relative;
+    margin: 0 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+#advantages .box h3 a {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#advantages .box h3 a:hover {
+    text-decoration: none;
+}
+
+#advantages .box p {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+}
+
+#our_story {
+    margin: 60px 0 80px 0;
+    text-align: center;
+}
+
+#our_story p {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+/* Latest Products Styles */
+
+#our_story h2,
+#hot h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#our_story h2 span,
+#hot h2 span {
+    color: #7FB5FF;
+}
+
+/* 
+#content {
+    padding-left: 25px;
+} */
+
+.single {}
+
+@media(max-width:768px) {
+    .single {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+#content .product {
+    background: #ffffff;
+    border: solid 1px #e6e6e6;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+#content .product .text {
+    padding: 10px 10px 0px;
+}
+
+#content .product .text p.price {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#content .product .text .button {
+    text-align: center;
+    clear: both;
+}
+
+#content .product .text .button .btn {
+    margin-bottom: 10px;
+}
+
+#content .product .text h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#content .product .text h3 a {
+    color: rgb(85, 85, 85);
+}
+
+/*  Breadcrumb Styles  */
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.breadcrumb>li+li:before {
+    content: ">\00a0";
+    color: #cccccc;
+}
+
+@media(max-width:991px) {
+    .breadcrumb {
+        padding: 8px 0px;
+        text-align: center;
+    }
+}
+
+/*  Products Categories & Categories Styles */
+#content .panel.sidebar-menu {
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+
+#content .panel.sidebar-menu ul.nav.category-menu {
+    margin-bottom: 20px;
+}
+
+#content .panel.sidebar-menu ul.nav.category-menu li a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#content .panel.sidebar-menu h3 {
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+/*  Shop Products Tyles  */
+
+@media(max-width: 768px) {
+    .center-responsive {
+        width: 70%;
+        margin: 0px auto;
+    }
+}
+
+@media(max-width: 550px) {
+    .center-responsive {
+        width: 95%;
+        margin: 0px auto;
+    }
+}
+
+/*  Details.php Styles */
+
+
+#content #productMain {
+    margin-bottom: 30px;
+}
+
+#productMain .btn-cart {
+    text-align: center;
+    width: 70%;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #7FB5FF;
+}
+
+#content #productMain .price {
+    color: #7FB5FF;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    #productMain .form-horizontal .control-label {
+        text-align: left;
+    }
+}
+
+
+
+#content #mainImage {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
+}
+
+#content #thumbs a {
+    display: block;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    border: 2px solid transparent;
+}
+
+#content .headline {
+    height: 305px;
+}
+
+/*  Cart.php Styles  */
+
+#content #cart .table tbody tr td img {
+    width: 50px;
+}
+
+#content #cart .table tbody tr td input {
+    width: 40px;
+    text-align: right;
+}
+
+#content #cart .table tbody tr td {
+    vertical-align: middle;
+}
+
+#content #cart .table tfoot {
+    font-size: 18px;
+}
+
+.box .box-footer {
+    background-color: #f7f7f7;
+    margin: 30px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+
+.box .box-footer:before,
+.box .box-footer:after {
+    content: "";
+    display: table;
+}
+
+.box .box-footer:after {
+    clear: both;
+}
+
+.box .box-header {
+    background-color: #f7f7f7;
+    margin: -20px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+
+#content #order-summary table {
+    margin-top: 20px;
+}
+
+#content #order-summary table td {
+    color: #999999;
+}
+
+#content #order-summary table tr.total td,
+#content #order-summary table tr.total th {
+    font-size: 18px;
+    color: #555555;
+    font-weight: 700;
+}
+
+/* ==================== Question Begin ================== */
+.question {
+    background: #537FE7;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+.question .heading {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+}
+
+.question-list {
+    margin-top: 40px;
+}
+
+.question-list .snow-icon {
+    font-size: 26px;
+    color: #BFDCE5;
+    margin-bottom: 16px;
+}
+
+.question .question-img {
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.question .question-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*  */
+.question-item {
+    border-bottom: 1px solid #B7B7B7;
+    margin-bottom: 20px;
+}
+
+.question-item--title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+    color: #fff;
+}
+
+.question-item--title p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.question-item--btn {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    border: transparent;
+}
+
+.question-item--text {
+    padding: 0 0 16px 0;
+    text-align: justify;
+}
+
+.question-item--text p {
+    margin-bottom: 0;
+}
+
+/* hide text */
+.question-item--text {
+    display: none;
+}
+
+.show-text .question-item--text {
+    display: block;
+    color: #fff;
+    font-weight: 300;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.show-text .minus-icon {
+    display: inline;
+}
+
+.show-text .plus-icon {
+    display: none;
+}
+
+
+/*  For Firefox Only  */
+
+@-moz-document url-prefix() {
+    .form-height-custom {
+        height: auto;
+    }
+}
+
+
+/*  Footer Styles  */
+
+#footer {
+    background: #e0e0e0;
+    padding: 20px 0;
+}
+
+#footer a {
+    color: #999999;
+    padding: 0;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #666666;
+}
+
+#footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#footer .social {
+    text-align: left;
+}
+
+#footer .social a {
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    background: #555555;
+    text-decoration: none;
+}
+
+#footer .social a:hover {
+    color: #dedede;
+    background: #777777;
+}
+
+/*  Copyright Styles  */
+
+#copyright {
+    background: #000;
+    color: #cccccc;
+    padding: 20px 0px;
+    font-size: 12px;
+}
+
+#copyright p {
+    margin: 0px;
+}
